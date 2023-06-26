@@ -8,14 +8,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "1508388"))
+API_HASH = getenv("API_HASH", "9b83ad0f6f0eeb973c8640258ea515c7")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5770160056:AAFJlnnsP1yKELFkB9nUbeAQDLsCe-gbII4")
 
 # Database to save your chats and stats... Get MongoDB:-  
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -28,18 +28,18 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001663063029"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Mr Killer MUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "HYPER OP MUSIC")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "724404977").split())
 )  # Input type must be interger
-YOUR_GROUP = getenv("YOUR_GROUP", "")
+YOUR_GROUP = getenv("YOUR_GROUP", "technical_hp_gamer")
 
-YOUR_CHANNEL = getenv("YOUR_CHANNEL", "")
+YOUR_CHANNEL = getenv("YOUR_CHANNEL", "Hpbot_update")
 
 
 
