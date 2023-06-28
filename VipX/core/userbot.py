@@ -48,8 +48,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("TG_FRIENDSS")
-                await self.one.join_chat("VIP_CREATORS")
+                await self.one.join_chat("HP_Bot_discuss_group")
+                await self.one.join_chat("Hpbot_update")
             except:
                 pass
             assistants.append(1)
@@ -79,8 +79,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("tg_friendss")
-                await self.two.join_chat("vip_creators")
+                await self.two.join_chat("HP_Bot_discuss_group")
+                await self.two.join_chat("Hpbot_update")
             except:
                 pass
             assistants.append(2)
@@ -110,8 +110,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("tg_friendss")
-                await self.three.join_chat("vip_creators")
+                await self.three.join_chat("HP_Bot_discuss_group")
+                await self.three.join_chat("Hpbot_update")
             except:
                 pass
             assistants.append(3)
@@ -141,8 +141,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("tg_friendss")
-                await self.four.join_chat("vip_creators")
+                await self.four.join_chat("HP_Bot_discuss_group")
+                await self.four.join_chat("Hpbot_update")
             except:
                 pass
             assistants.append(4)
@@ -172,8 +172,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("tg_friendss")
-                await self.five.join_chat("vip_creators")
+                await self.five.join_chat("HP_Bot_discuss_group")
+                await self.five.join_chat("Hpbot_update")
             except:
                 pass
             assistants.append(5)
